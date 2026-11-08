@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/shici-cet6/sw.js', { scope: '/shici-cet6/' })})}
